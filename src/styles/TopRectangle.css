@@ -1,0 +1,82 @@
+.div-principal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 813px;
+    background-color: #140B6A;
+    opacity: 84%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-size: 70px;
+    margin:0px;
+}
+
+.div-title {
+    margin-top:20px;
+    margin-left: 2%;
+}
+
+.p-desc-title {
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-size: 25px;
+    margin-top:15px;
+}
+
+img {
+    position: fixed;
+    top: 213px;
+    left:612px;
+    width: 800px;
+    height: 600px;
+}
+
+.vertical-line {
+    position: fixed;
+    top: 288px;
+    left: 192px;
+    border-left: 2px solid white;
+    height: 356px;
+}
+
+#ball{
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    left:179px;
+}
+
+.ball-MonParcours {
+    position: fixed;
+    top: 309px;
+}
+
+.ball-ExpPro {
+    position: fixed;
+    top: 403px;
+}
+
+.ball-Competences {
+    position: fixed;
+    top: 497px;
+}
+
+.ball-CentreInteret {
+    position: fixed;
+    top: 591px;
+}
+
+#p-white-ball {
+    position: fixed;
+    margin-top: 0px;
+    left:225px;
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-size: 25px;
+    width: 554px;
+}
