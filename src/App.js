@@ -1,17 +1,20 @@
 import React, {useState} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import './App.css';
 import { lightTheme, darkTheme } from './theme';
 import { GlobalStyles } from './global';
 import { ThemeProvider } from "styled-components";
 import TopRectangle from './components/TopRectangle';
-import UseSwitchesCustom from './components/MUISwitch';
+import { Button } from 'react-bootstrap';
 
 function App() {
 
   // App.js
   const [theme, setTheme] = useState('light');
   const [checked, setChecked] = useState(false);
+
+  const label = "Changer la couleur"
 
   // The function that toggles between themes
   const toggleTheme = () => {
@@ -24,15 +27,13 @@ function App() {
     }
   }
 
-  const handleChange = () => {
-    toggleTheme();
-  }
+  
 
   return (
     <div className="App">
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <GlobalStyles />
-        <UseSwitchesCustom onChange={() => toggleTheme()} className="switch-button"/>
+        <Button variant="outline-dark" onClick={toggleTheme} className="switch-button">Changer la couleur</Button>{' '}
         <TopRectangle className="topRectangle" />
       </ThemeProvider>
     </div>

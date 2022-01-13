@@ -38,4 +38,9 @@ h1 {
 #p-white-ball {
     color: ${({ theme }) => theme.text};
 }
+
+.switch-button {
+  background-color: ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
+}
 `;

@@ -80,3 +80,62 @@ img {
     font-size: 25px;
     width: 554px;
 }
+
+/* ------ Responsive for mobile devices ---------- */
+@media screen and (min-width: 300px) and (max-width: 600px){
+    h1 {
+
+        font-size: 25px;
+    }
+
+    .div-title {
+        margin-top: 10px;
+        margin-left: 4%;
+    }
+
+    .p-desc-title {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    #ball {
+        width:10px;
+        height:10px;
+        left: 16px;
+    }
+
+    .ball-MonParcours {
+        top: 122.5px;
+    }
+
+    .ball-ExpPro {
+        top: 152.5px;
+    }
+
+    .ball-Competences {
+        top: 182.5px;
+    }
+
+    .ball-CentreInteret {
+        top: 212.5px;
+    }
+
+    .vertical-line {
+        top: 120px;
+        left: 20px;
+        height: 106px;
+    }
+
+    #p-white-ball {
+        font-size: 10px;
+        left: 40px;
+    }
+
+    img {
+        width: 200px;
+        height: 500px;
+        top: -80px;
+        left: 180px;
+    }
+
+}
