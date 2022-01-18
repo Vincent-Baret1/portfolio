@@ -85,7 +85,7 @@ img {
 @media screen and (min-width: 300px) and (max-width: 600px){
     h1 {
 
-        font-size: 25px;
+        font-size: 40px;
     }
 
     .div-title {
@@ -95,47 +95,45 @@ img {
 
     .p-desc-title {
         margin-top: 5px;
-        font-size: 10px;
-    }
-
-    #ball {
-        width:10px;
-        height:10px;
-        left: 16px;
-    }
-
-    .ball-MonParcours {
-        top: 122.5px;
-    }
-
-    .ball-ExpPro {
-        top: 152.5px;
-    }
-
-    .ball-Competences {
-        top: 182.5px;
-    }
-
-    .ball-CentreInteret {
-        top: 212.5px;
+        font-size: 15px;
     }
 
     .vertical-line {
-        top: 120px;
-        left: 20px;
-        height: 106px;
+        top: 160px;
+        left: 100px;
+        height: 315px;
+    }
+
+    .ball-MonParcours {
+        top: 165px;
+    }
+
+    .ball-ExpPro {
+        top: 255px;
+    }
+
+    .ball-Competences {
+        top: 345px;
+    }
+
+    .ball-CentreInteret {
+        top: 435px;
+    }
+
+    #ball {
+        left: 86px;
     }
 
     #p-white-ball {
-        font-size: 10px;
-        left: 40px;
+        left: 130px;
+        font-size: 15px;
     }
 
     img {
-        width: 200px;
-        height: 500px;
-        top: -80px;
-        left: 180px;
+        width: 400px;
+        height: 600px;
+        top:360px;
+        left: 0px;
     }
 
 }
