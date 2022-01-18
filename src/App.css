@@ -5,10 +5,12 @@
     z-index: 10;
 }
 
-.topRectangle {
-    position: relative;
-    z-index: 1;
+.App {
+    width: auto;
+    height: auto;
 }
+
+
 
 
 /* ------ Responsive for mobile devices ---------- */

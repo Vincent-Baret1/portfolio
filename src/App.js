@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import './App.css';
@@ -7,6 +7,7 @@ import { GlobalStyles } from './global';
 import { ThemeProvider } from "styled-components";
 import TopRectangle from './components/TopRectangle';
 import { Button } from 'react-bootstrap';
+import MonParcoursRectangle from './components/MonParcoursRectangle';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
     }
   }
 
-  
+
 
   return (
     <div className="App">
@@ -35,6 +36,7 @@ function App() {
         <GlobalStyles />
         <Button variant="outline-dark" onClick={toggleTheme} className="switch-button">Changer la couleur</Button>{' '}
         <TopRectangle className="topRectangle" />
+        <MonParcoursRectangle className="MonParcoursRectangle" />
       </ThemeProvider>
     </div>
   );
