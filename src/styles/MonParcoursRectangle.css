@@ -10,12 +10,32 @@
 
 .h1-Mon-Parcours {
     position: absolute;
-    top: 845px;
-    left: 20px;
+    top: 70px;
+    left: 520px;
     font-size: 50px;
 }
 
 .div-frise-chrono {
     position: absolute;
-    top: 1211px;
+    top: 436px;
+    left: 192px;
+    display: flex;
+}
+
+#div-annee-frise {
+    background-color: #000000;
+    opacity: 30%;
+    width: 263px;
+    height: 102px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 2px;
+}
+
+.ligne-2017 {
+    position: absolute;
+    top: 539px;
+    left:256px;
+    border-left: 2px solid white;
+    height: 69px;
 }
