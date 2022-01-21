@@ -1,5 +1,6 @@
 .div-Mon-Parcours {
     position: absolute;
+    z-index: 2;
     top: 764px;
     right: 0;
     width: 100%;
@@ -38,4 +39,170 @@
     left:256px;
     border-left: 2px solid white;
     height: 69px;
+}
+
+.ligne-2020 {
+    position: absolute;
+    top: 369px;
+    left: 520px;
+    border-left: 2px solid white;
+    height: 69px;
+}
+
+.ligne-2021 {
+    position: absolute;
+    top: 539px;
+    left: 803px;
+    border-left: 2px solid white;
+    height: 69px;
+}
+
+.ligne-2022 {
+    position: absolute;
+    top: 369px;
+    left: 1074px;
+    border-left: 2px solid white;
+    height: 69px;
+}
+
+
+.icon-diploma {
+    position: absolute;
+    top: 1378px;
+    left: 212px;
+}
+
+.icon-mortarboard {
+    position: absolute;
+    top: 1030px;
+    left: 470px;
+}
+
+.icon-laptop {
+    position: absolute;
+    top: 1380px;
+    left: 743px;
+}
+
+.icon-brackets {
+    position: absolute;
+    top: 1030px;
+    left: 1024px;
+}
+
+p {
+    color: white;
+    font-family: 'Rozha One', serif;
+    font-size: 20px;
+}
+
+.div-desc-2017 {
+    position: absolute;
+    top: 735px;
+    left: 143px;
+}
+
+.div-desc-2020 {
+    position: absolute;
+    top: 170px;
+    left: 383px; 
+}
+
+.div-desc-2021 {
+    position: absolute;
+    top: 737px;
+    left: 663px;
+}
+
+.div-desc-2022 {
+    position: absolute;
+    top: 170px;
+    left: 965px;
+}
+
+/* ------ Responsive for mobile devices ---------- */
+@media screen and (min-width: 300px) and (max-width: 600px){
+    
+    .h1-Mon-Parcours {
+        left: 90px;
+        font-size: 40px;
+    }
+
+    .div-frise-chrono {
+        flex-direction: column;
+        top: 200px;
+        left: 80px;
+    }
+
+    #div-annee-frise {
+      height: 150px  
+    }
+
+    .ligne-2017 {
+        display: none;
+    }
+
+    .ligne-2020 {
+        display: none;
+    }
+
+    .ligne-2021 {
+        display: none;
+    }
+
+    .ligne-2022 {
+        display: none;
+    }
+
+    .icon-diploma {
+        top: 955px;
+        width: 10%;
+        height: 10%;
+    }
+
+    .icon-mortarboard {
+        top: 1105px;
+        left: 212px;
+        width: 10%;
+        height: 10%;
+    }
+
+    .icon-laptop {
+        top: 1255px;
+        left: 212px;
+        width: 10%;
+        height: 10%;
+    }
+
+    .icon-brackets {
+        top: 1415px;
+        left: 212px;
+        width: 10%;
+        height: 10%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .div-desc-2017 {
+        top: 270px;
+        left: 97px;
+    }
+
+    .div-desc-2020 {
+        top: 420px;
+        left: 97px;
+    }
+
+    .div-desc-2021{
+        top: 575px;
+        left: 97px;
+    }
+
+    .div-desc-2022 {
+        top: 730px;
+        left: 97px;
+    }
+
 }
