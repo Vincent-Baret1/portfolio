@@ -8,6 +8,7 @@ import { ThemeProvider } from "styled-components";
 import TopRectangle from './components/TopRectangle';
 import { Button } from 'react-bootstrap';
 import MonParcoursRectangle from './components/MonParcoursRectangle';
+import ExperienceProRectangle from './components/ExperienceProRectangle';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
         <Button variant="outline-dark" onClick={toggleTheme} className="switch-button">Changer la couleur</Button>{' '}
         <TopRectangle className="topRectangle" />
         <MonParcoursRectangle className="MonParcoursRectangle" />
+        <ExperienceProRectangle />
       </ThemeProvider>
     </div>
   );
