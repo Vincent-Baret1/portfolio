@@ -1,0 +1,63 @@
+.div-mes-projets {
+    position: absolute;
+    width: 100%;
+    top: 2400px;
+    height: 500px;
+}
+
+.h1-div-mes-projets {
+    position: absolute;
+    left: 30%;
+    font-size: 40px;
+    font-family: 'Rozha One', serif;
+    color:black;
+}
+
+.card-java {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    width: 389px;
+    height: 269px;
+}
+
+.card-react-js {
+    position: absolute;
+    left: 485px;
+    top: 100px;
+    width: 389px;
+    height: 269px;
+}
+
+.card-python {
+    position: absolute;
+    left: 945px;
+    top: 100px;
+    width: 389px;
+    height: 269px;
+}
+
+#card {
+    background-color: #140B6A;
+    opacity: 27%;  
+}
+
+#card-title {
+    font-family: 'Rozha One', serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#card-text {
+    font-family: 'Rozha One', serif;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+@keyframes moveCard {
+    from {
+        width: 0%;
+    }  
+}

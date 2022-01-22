@@ -9,6 +9,7 @@ import TopRectangle from './components/TopRectangle';
 import { Button } from 'react-bootstrap';
 import MonParcoursRectangle from './components/MonParcoursRectangle';
 import ExperienceProRectangle from './components/ExperienceProRectangle';
+import MesProjetsRectangle from './components/MesProjetsRectangle';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         <TopRectangle className="topRectangle" />
         <MonParcoursRectangle className="MonParcoursRectangle" />
         <ExperienceProRectangle />
+        <MesProjetsRectangle />
       </ThemeProvider>
     </div>
   );
