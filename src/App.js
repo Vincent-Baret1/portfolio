@@ -10,6 +10,7 @@ import { Button } from 'react-bootstrap';
 import MonParcoursRectangle from './components/MonParcoursRectangle';
 import ExperienceProRectangle from './components/ExperienceProRectangle';
 import MesProjetsRectangle from './components/MesProjetsRectangle';
+import MesCompetencesRectangle from './components/MesCompetencesRectangle';
 
 function App() {
 
@@ -34,13 +35,14 @@ function App() {
 
   return (
     <div className="App">
-      <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+      <ThemeProvider theme={theme === 'dark' ? lightTheme : darkTheme}>
         <GlobalStyles />
         <Button variant="outline-dark" onClick={toggleTheme} className="switch-button">Changer la couleur</Button>{' '}
         <TopRectangle className="topRectangle" />
         <MonParcoursRectangle className="MonParcoursRectangle" />
         <ExperienceProRectangle />
         <MesProjetsRectangle />
+        <MesCompetencesRectangle />
       </ThemeProvider>
     </div>
   );
