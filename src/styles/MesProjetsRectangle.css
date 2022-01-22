@@ -17,29 +17,26 @@
     position: absolute;
     left: 30px;
     top: 100px;
-    width: 389px;
-    height: 269px;
+    
 }
 
 .card-react-js {
     position: absolute;
     left: 485px;
     top: 100px;
-    width: 389px;
-    height: 269px;
 }
 
 .card-python {
     position: absolute;
     left: 945px;
     top: 100px;
-    width: 389px;
-    height: 269px;
 }
 
 #card {
     background-color: #140B6A;
     opacity: 27%;  
+    width: 389px;
+    height: 269px;
 }
 
 #card-title {
@@ -64,4 +61,38 @@
 
 #card:hover {
     box-shadow: 0 2rem 2rem rgba(0, 0, 0, .5);
+}
+
+/* ------ Responsive for mobile devices ---------- */
+@media screen and (min-width: 300px) and (max-width: 600px){
+
+    .h1-div-mes-projets {
+        top: 50px;
+        left: 10%;
+        font-size: 25px;
+    }
+
+    #card {
+        width: 60%;
+        height: 35%;
+    }
+
+    #card-text {
+        padding: 0px;
+    }
+
+    .card-java {
+        top: 135px;
+        left: 18%;
+    }
+
+    .card-react-js {
+        top: 355px;
+        left: 18%;
+    }
+
+    .card-python {
+        top: 575px;
+        left: 18%;
+    }
 }
