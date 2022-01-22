@@ -14,7 +14,6 @@ function MesProjetsRectangle() {
     $(window).scroll(function() {
 
         var scrollPos = $(this).scrollTop();
-        console.log(scrollPos);
 
         if(scrollPos > 1700){
             $('.card-java').css({
