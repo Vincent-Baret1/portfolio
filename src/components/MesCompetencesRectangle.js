@@ -28,7 +28,6 @@ class MesCompetencesRectangle extends React.Component {
                 <Icon icon="carbon:logo-r-script" color="black" height="100" className="icon-r" />
                 <Icon icon="akar-icons:github-fill" color="black" height="100" className="icon-github" />
                 <Icon icon="simple-icons:mysql" color="black" height="100" className="icon-sql" />
-                <Icon icon="teenyicons:c-solid" color="black" height="100" className="icon-c" />
             </div>
         );
     }
