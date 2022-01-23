@@ -11,6 +11,7 @@ import MonParcoursRectangle from './components/MonParcoursRectangle';
 import ExperienceProRectangle from './components/ExperienceProRectangle';
 import MesProjetsRectangle from './components/MesProjetsRectangle';
 import MesCompetencesRectangle from './components/MesCompetencesRectangle';
+import CentreInteretRectangle from './components/CentreInteretRectangle';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         <ExperienceProRectangle />
         <MesProjetsRectangle />
         <MesCompetencesRectangle />
+        <CentreInteretRectangle />
       </ThemeProvider>
     </div>
   );
