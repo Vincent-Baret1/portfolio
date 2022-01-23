@@ -12,6 +12,7 @@ import ExperienceProRectangle from './components/ExperienceProRectangle';
 import MesProjetsRectangle from './components/MesProjetsRectangle';
 import MesCompetencesRectangle from './components/MesCompetencesRectangle';
 import CentreInteretRectangle from './components/CentreInteretRectangle';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
         <MesProjetsRectangle />
         <MesCompetencesRectangle />
         <CentreInteretRectangle />
+        <Footer />
       </ThemeProvider>
     </div>
   );

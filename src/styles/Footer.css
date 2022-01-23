@@ -1,0 +1,29 @@
+.div-footer {
+    position: absolute;
+    top: 4216px;
+    width: 100%;
+    height: 450px;
+    background-color: #140B6A;
+}
+
+.p-info-footer {
+    font-size: 25px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.p-droits {
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    font-size: 15px;
+}
+
+.div-form {
+    color: white;
+    font-family: 'Rozha One', serif;
+    position: absolute;
+    top: 30px;
+    width: 40%;
+    right: 90px;
+}
