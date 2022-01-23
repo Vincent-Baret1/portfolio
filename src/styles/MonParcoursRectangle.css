@@ -71,22 +71,62 @@
     left: 212px;
 }
 
+@keyframes anim-diploma {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 212px;
+    }
+}
+
 .icon-mortarboard {
     position: absolute;
     top: 1030px;
     left: 470px;
 }
 
+@keyframes anim-mortarboard {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 470px;
+    }
+}
+
 .icon-laptop {
     position: absolute;
     top: 1380px;
-    left: 743px;
+    right: 503px;
+}
+
+@keyframes anim-laptop {
+    from {
+       right: 0px; 
+    }
+
+    to {
+        right: 503px;
+    }
 }
 
 .icon-brackets {
     position: absolute;
     top: 1030px;
-    left: 1024px;
+    right: 240px;
+}
+
+@keyframes anim-brackets {
+    from {
+        right: 0px;
+    } 
+
+    to {
+        right: 240px;
+    }
 }
 
 p {
@@ -101,22 +141,62 @@ p {
     left: 143px;
 }
 
+@keyframes anim-div-2017 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 143px;
+    }
+}
+
 .div-desc-2020 {
     position: absolute;
     top: 170px;
     left: 383px; 
 }
 
+@keyframes anim-div-2020 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 383px;
+    }
+}
+
 .div-desc-2021 {
     position: absolute;
     top: 737px;
-    left: 663px;
+    right: 403px;
+}
+
+@keyframes anim-div-2021 {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 403px;
+    }
 }
 
 .div-desc-2022 {
     position: absolute;
     top: 170px;
-    left: 965px;
+    right: 120px;
+}
+
+@keyframes anim-div-2022 {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 120px;
+    }
 }
 
 /* ------ Responsive for mobile devices ---------- */
