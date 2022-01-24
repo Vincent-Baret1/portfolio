@@ -8,7 +8,7 @@ function MonParcoursRectangle() {
     $(window).scroll(function () {
 
         var scrollPos = $(this).scrollTop();
-        console.log(scrollPos)
+        
         if (scrollPos > 130) {
             $('.icon-diploma').css({
                 'animation-duration': 3 + 's',

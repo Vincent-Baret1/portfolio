@@ -96,3 +96,43 @@
         left: 18%;
     }
 }
+
+/* ------ Responsive for Ipad devices ---------- */
+@media screen and (min-width: 700px) and (max-width: 830px){
+
+    .div-mes-projets {
+        height: 600px;
+    }
+
+    .h1-div-mes-projets {
+        left: 20%;
+        top: -150px;
+        font-size: 40px;
+    }
+
+    #card {
+        width: 60%;
+        left: 20%;
+        height: 35%;
+    }
+
+    #card-text {
+        padding: 0px;
+    }
+
+    .card-java {
+        top: 0px;
+        left: 18%;
+    }
+
+    .card-react-js {
+        top: 235px;
+        left: 18%;
+    }
+
+    .card-python {
+        top: 475px;
+        left: 18%;
+    }
+
+}

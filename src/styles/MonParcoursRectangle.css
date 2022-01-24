@@ -100,7 +100,7 @@
 .icon-laptop {
     position: absolute;
     top: 1380px;
-    right: 503px;
+    right: 563px;
 }
 
 @keyframes anim-laptop {
@@ -109,14 +109,14 @@
     }
 
     to {
-        right: 503px;
+        right: 563px;
     }
 }
 
 .icon-brackets {
     position: absolute;
     top: 1030px;
-    right: 240px;
+    right: 310px;
 }
 
 @keyframes anim-brackets {
@@ -125,7 +125,7 @@
     } 
 
     to {
-        right: 240px;
+        right: 310px;
     }
 }
 
@@ -246,6 +246,16 @@ p {
         height: 10%;
     }
 
+    @keyframes anim-mortarboard {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 212px;
+        }
+    }
+
     .icon-laptop {
         top: 1265px;
         left: 212px;
@@ -253,11 +263,31 @@ p {
         height: 10%;
     }
 
+    @keyframes anim-laptop {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 212px;
+        }
+    }
+
     .icon-brackets {
         top: 1415px;
         left: 212px;
         width: 10%;
         height: 10%;
+    }
+
+    @keyframes anim-brackets {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 212px;
+        }
     }
 
     p {
@@ -269,19 +299,239 @@ p {
         left: 97px;
     }
 
+    @keyframes anim-div-2017 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 97px;
+        }
+    }
+
     .div-desc-2020 {
         top: 420px;
         left: 97px;
     }
 
+    @keyframes anim-div-2020 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 97px;
+        }
+    }
+
     .div-desc-2021{
         top: 575px;
         left: 97px;
+        right: 0px;
+    }
+
+    @keyframes anim-div-2021 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 97px;
+        }
     }
 
     .div-desc-2022 {
         top: 730px;
         left: 97px;
+        right: 0px;
     }
 
+    @keyframes anim-div-2022 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 97px;
+        }
+    }
+
+}
+
+/* ------ Responsive for Ipad devices ---------- */
+@media screen and (min-width: 700px) and (max-width: 830px){
+
+    .div-Mon-Parcours {
+        top: 504px;
+        height: 1060px;
+    }
+
+    .h1-Mon-Parcours {
+        position: absolute;
+        top: 20px;
+        left: 30%;
+        font-size: 50px;
+    }
+    
+    .div-frise-chrono {
+        flex-direction: column;
+        top: 150px;
+        left: 25%;
+    }
+
+    #div-annee-frise {
+        width: 363px;
+        height: 200px;  
+    }
+
+    .ligne-2017 {
+        display: none;
+    }
+
+    .ligne-2020 {
+        display: none;
+    }
+
+    .ligne-2021 {
+        display: none;
+    }
+
+    .ligne-2022 {
+        display: none;
+    }
+
+    .icon-diploma {
+        top: 655px;
+        left: 390px;
+        width: 10%;
+        height: 10%;
+    }
+
+    @keyframes anim-diploma {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 390px;
+        }
+    }
+
+    .icon-mortarboard {
+        top: 855px;
+        left: 390px;
+        width: 10%;
+        height: 10%;
+    }
+
+    @keyframes anim-mortarboard {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 390px;
+        }
+    }
+
+    .icon-laptop {
+        top: 1055px;
+        left: 390px;
+        width: 10%;
+        height: 10%;
+    }
+
+    @keyframes anim-laptop {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 390px;
+        }
+    }
+
+    .icon-brackets {
+        top: 1255px;
+        left: 390px;
+        width: 10%;
+        height: 10%;
+    }
+
+    @keyframes anim-brackets {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 390px;
+        }
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .div-desc-2017 {
+        top: 250px;
+        left: 227px;
+    }
+
+    @keyframes anim-div-2017 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 227px;
+        }
+    }
+
+    .div-desc-2020 {
+        top: 450px;
+        left: 227px;
+    }
+
+    @keyframes anim-div-2020 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 227px;
+        }
+    }
+
+    .div-desc-2021{
+        top: 650px;
+        left: 227px;
+        right: 0px;
+    }
+
+    @keyframes anim-div-2021 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 227px;
+        }
+    }
+
+    .div-desc-2022 {
+        top: 850px;
+        left: 227px;
+        right: 0px;
+    }
+
+    @keyframes anim-div-2022 {
+        from {
+            left: 0px;
+        }
+    
+        to {
+            left: 227px;
+        }
+    }
+    
 }

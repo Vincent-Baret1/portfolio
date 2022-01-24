@@ -50,3 +50,20 @@
         left: 20%;
     }
 }
+
+/* ------ Responsive for Ipad devices ---------- */
+@media screen and (min-width: 700px) and (max-width: 830px){
+
+    .p-info-footer {
+        font-size: 20px;
+    }
+    
+    .p-droits {
+        left: 30%;
+    }
+
+    .div-form {
+        right: 70px;
+    }
+
+}

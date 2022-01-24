@@ -183,3 +183,103 @@
         height: 15%;
     }
 }
+
+/* ------ Responsive for Ipad devices ---------- */
+@media screen and (min-width: 700px) and (max-width: 830px){
+
+    .div-mes-competences {
+        top: 3153.5px;
+        height: 680px;
+    }
+
+    .titre-mes-competences {
+        font-size: 35px;
+    }
+
+    .ul-mes-competences {
+        top: 200px;
+        left: 30px;
+        font-size: 20px;
+    }
+
+    .icon-python {
+        position: absolute;
+        top: 3299px;
+        left: 29em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-java {
+        position: absolute;
+        top: 3399px;
+        left: 34em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-linux {
+        position: absolute;
+        top: 3290px;
+        left: 35em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-react {
+        position: absolute;
+        top: 3499px;
+        left: 40em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-javascript {
+        position: absolute;
+        top: 3599px;
+        left: 32em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-html {
+        position: absolute;
+        top: 3350px;
+        left: 40em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-r {
+        position: absolute;
+        top: 3510px;
+        left: 32em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-css {
+        position: absolute;
+        top: 3670px;
+        left: 40em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-github {
+        position: absolute;
+        top: 3585px;
+        left: 39em;
+        width: 7%;
+        height: 7%;
+    }
+    
+    .icon-sql {
+        position: absolute;
+        top: 3700px;
+        left: 30em;
+        width: 7%;
+        height: 7%;
+    }
+
+}

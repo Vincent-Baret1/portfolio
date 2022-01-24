@@ -109,3 +109,34 @@
         padding-left: 5%;
     }
 }
+
+/* ------ Responsive for Ipad devices ---------- */
+@media screen and (min-width: 700px) and (max-width: 830px){
+
+    .div-exp-pro-1-gauche {
+        top: 1563px;
+    }
+
+    .div-exp-pro-2-droite {
+        top:1563px;
+    }
+    
+    .ul-div-1 {
+        padding-left: 10%;
+        font-size: 20px;
+    }
+
+    .icon-vpn {
+        position: absolute;
+        top: 1610px;
+        left: 332px;
+        width: 10%;
+        height:10%;
+    }
+
+    .desc-stage-div-2 {
+        font-size: 20px;
+        padding-top: 7%;
+    }
+
+}

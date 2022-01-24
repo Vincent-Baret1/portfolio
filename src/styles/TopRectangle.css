@@ -138,3 +138,104 @@ img {
     }
 
 }
+
+/* ------ Responsive for Ipad devices ---------- */
+@media screen and (min-width: 701px) and (max-width: 830px){
+
+    .div-principal {
+        height: 513px;
+    }
+
+
+    .div-title {
+        margin-top: 10px;
+        margin-left: 4%;
+    }
+
+    .p-desc-title {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .vertical-line {
+        top: 240px;
+        left: 60px;
+        height: 250px;
+    }
+
+    .ball-MonParcours {
+        top: 245px;
+    }
+
+    .ball-ExpPro {
+        top: 315px;
+    }
+
+    .ball-Competences {
+        top: 395px;
+    }
+
+    .ball-CentreInteret {
+        top: 465px;
+    }
+
+    #ball {
+        width: 20px;
+        height: 20px;
+        left: 51px;
+    }
+
+    #p-white-ball {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    img {
+        width: 60%;
+        height: 60%;
+        top: 205px;
+        left: 290px;
+    }
+
+
+}
+
+/* ------ Responsive for devices between 600 and 700px ---------- */
+@media screen and (min-width: 600px) and (max-width: 700px){
+
+    .vertical-line {
+        top: 360px;
+        left: 70px;
+        height: 295px;
+    }
+
+    #ball {
+        width: 20px;
+        height: 20px;
+        left: 61px;
+    }
+
+    .ball-MonParcours {
+        top: 370px;
+    }
+
+    .ball-ExpPro {
+        top: 450px;
+    }
+
+    .ball-Competences {
+        top: 535px;
+    }
+
+    .ball-CentreInteret {
+        top: 630px;
+    }
+
+    img {
+        position: absolute;
+        top: 213px;
+        left:40%;
+        width: 60%;
+        height: 70%;
+    }
+}

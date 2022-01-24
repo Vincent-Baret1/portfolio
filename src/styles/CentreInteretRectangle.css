@@ -68,3 +68,36 @@
         font-size: 15px;
     }
 }
+
+/* ------ Responsive for Ipad devices ---------- */
+@media screen and (min-width: 700px) and (max-width: 830px){
+
+    .div-mes-interets {
+        top: 3833px;
+    }
+
+    .div-titre {
+        top: 3870px;
+        height: 50px;
+    }
+
+    .h1-titre-interet {
+        top: 3880px;
+        left: 32%;
+        font-size: 25px;
+    }
+
+    .icon-mountain {
+        top: 3900px;
+        left: 39%;
+        width: 12%;
+        height: 12%;
+    }
+
+    .p-desc-interet {
+        top: 205px;
+        left: 0px;
+        font-size: 25px;
+    }
+
+}
