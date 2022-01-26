@@ -98,16 +98,17 @@
 }
 
 /* ------ Responsive for Ipad devices ---------- */
-@media screen and (min-width: 700px) and (max-width: 830px){
+@media screen and (min-width: 600px) and (max-width: 830px){
 
     .div-mes-projets {
+        top: 2253px;
         height: 600px;
     }
 
     .h1-div-mes-projets {
         left: 20%;
         top: -150px;
-        font-size: 40px;
+        font-size: 5vw;
     }
 
     #card {

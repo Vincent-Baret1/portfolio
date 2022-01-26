@@ -52,10 +52,14 @@
 }
 
 /* ------ Responsive for Ipad devices ---------- */
-@media screen and (min-width: 700px) and (max-width: 830px){
+@media screen and (min-width: 600px) and (max-width: 830px){
+
+    .div-footer {
+        top: 4080px;
+    }
 
     .p-info-footer {
-        font-size: 20px;
+        font-size: 2.5vw;
     }
     
     .p-droits {

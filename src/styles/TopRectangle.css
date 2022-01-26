@@ -139,7 +139,7 @@ img {
 }
 
 /* ------ Responsive for Ipad devices ---------- */
-@media screen and (min-width: 701px) and (max-width: 830px){
+@media screen and (min-width: 600px) and (max-width: 830px){
 
     .div-principal {
         height: 513px;
@@ -191,15 +191,14 @@ img {
 
     img {
         width: 60%;
-        height: 60%;
-        top: 205px;
-        left: 290px;
+        bottom: 0px;
+        left: 40%;
     }
 
 
 }
 
-/* ------ Responsive for devices between 600 and 700px ---------- */
+/* ------ Responsive for devices between 600 and 700px ---------- 
 @media screen and (min-width: 600px) and (max-width: 700px){
 
     .vertical-line {
@@ -237,4 +236,4 @@ img {
         width: 60%;
         height: 70%;
     }
-}
+} */

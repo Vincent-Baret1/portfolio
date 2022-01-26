@@ -63,7 +63,7 @@
 .icon-r {
     position: absolute;
     top: 3340px;
-    left: 89%;
+    left: 87%;
 }
 
 .icon-css {
@@ -186,10 +186,10 @@
 }
 
 /* ------ Responsive for Ipad devices ---------- */
-@media screen and (min-width: 700px) and (max-width: 830px){
+@media screen and (min-width: 600px) and (max-width: 830px){
 
     .div-mes-competences {
-        top: 3153.5px;
+        top: 3003.5px;
         height: 680px;
     }
 
@@ -200,21 +200,21 @@
     .ul-mes-competences {
         top: 200px;
         left: 30px;
-        font-size: 20px;
+        font-size: 2.7vw;
     }
 
     .icon-python {
         position: absolute;
-        top: 3299px;
-        left: 29em;
+        top: 3180px;
+        left: 70%;
         width: 7%;
         height: 7%;
     }
     
     .icon-java {
         position: absolute;
-        top: 3399px;
-        left: 34em;
+        top: 3199px;
+        left: 82%;
         width: 7%;
         height: 7%;
     }
@@ -222,63 +222,63 @@
     .icon-linux {
         position: absolute;
         top: 3290px;
-        left: 35em;
+        left: 75%;
         width: 7%;
         height: 7%;
     }
     
     .icon-react {
         position: absolute;
-        top: 3499px;
-        left: 40em;
+        top: 3299px;
+        left: 89%;
         width: 7%;
         height: 7%;
     }
     
     .icon-javascript {
         position: absolute;
-        top: 3599px;
-        left: 32em;
+        top: 3399px;
+        left: 80%;
         width: 7%;
         height: 7%;
     }
     
     .icon-html {
         position: absolute;
-        top: 3350px;
-        left: 40em;
+        top: 3390px;
+        left: 90%;
         width: 7%;
         height: 7%;
     }
     
     .icon-r {
         position: absolute;
-        top: 3510px;
-        left: 32em;
+        top: 3480px;
+        left: 76%;
         width: 7%;
         height: 7%;
     }
     
     .icon-css {
         position: absolute;
-        top: 3670px;
-        left: 40em;
+        top: 3490px;
+        left: 89%;
         width: 7%;
         height: 7%;
     }
     
     .icon-github {
         position: absolute;
-        top: 3585px;
-        left: 39em;
+        top: 3565px;
+        left: 74%;
         width: 7%;
         height: 7%;
     }
     
     .icon-sql {
         position: absolute;
-        top: 3700px;
-        left: 30em;
+        top: 3580px;
+        left: 89%;
         width: 7%;
         height: 7%;
     }
