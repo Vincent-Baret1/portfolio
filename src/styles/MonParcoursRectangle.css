@@ -208,14 +208,14 @@ p {
 @media screen and (min-width: 300px) and (max-width: 600px){
     
     .h1-Mon-Parcours {
-        left: 90px;
+        left: 25%;
         font-size: 40px;
     }
 
     .div-frise-chrono {
         flex-direction: column;
         top: 200px;
-        left: 80px;
+        left: 25%;
     }
 
     #div-annee-frise {
@@ -239,59 +239,70 @@ p {
     }
 
     .icon-diploma {
-        top: 955px;
+        top: 960px;
+        left: 50%;
         width: 10%;
         height: 10%;
     }
 
+    @keyframes anim-diploma {
+        from {
+            left: 0%;
+        }
+    
+        to {
+            left: 50%;
+        }
+    }
+
     .icon-mortarboard {
         top: 1105px;
-        left: 212px;
+        left: 50%;
         width: 10%;
         height: 10%;
     }
 
     @keyframes anim-mortarboard {
         from {
-            left: 0px;
+            left: 0%;
         }
     
         to {
-            left: 212px;
+            left: 50%;
         }
     }
 
     .icon-laptop {
         top: 1265px;
-        left: 212px;
+        left: 50%;
         width: 10%;
         height: 10%;
     }
 
     @keyframes anim-laptop {
         from {
-            left: 0px;
+            left: 0%;
         }
     
         to {
-            left: 212px;
+            left: 50%;
         }
     }
 
     .icon-brackets {
         top: 1415px;
-        left: 212px;
+        left: 50%;
         width: 10%;
         height: 10%;
     }
 
     @keyframes anim-brackets {
         from {
-            left: 0px;
+            left: 0%;
         }
     
         to {
-            left: 212px;
+            left: 50%;
         }
     }
 
@@ -301,63 +312,63 @@ p {
 
     .div-desc-2017 {
         top: 270px;
-        left: 97px;
+        left: 27%;
     }
 
     @keyframes anim-div-2017 {
         from {
-            left: 0px;
+            left: 0%;
         }
     
         to {
-            left: 97px;
+            left: 27%;
         }
     }
 
     .div-desc-2020 {
         top: 420px;
-        left: 97px;
+        left: 27%;
     }
 
     @keyframes anim-div-2020 {
         from {
-            left: 0px;
+            left: 0%;
         }
     
         to {
-            left: 97px;
+            left: 27%;
         }
     }
 
     .div-desc-2021{
         top: 575px;
-        left: 97px;
+        left: 27%;
         right: 0px;
     }
 
     @keyframes anim-div-2021 {
         from {
-            left: 0px;
+            left: 0%;
         }
     
         to {
-            left: 97px;
+            left: 27%;
         }
     }
 
     .div-desc-2022 {
         top: 730px;
-        left: 97px;
+        left: 27%;
         right: 0px;
     }
 
     @keyframes anim-div-2022 {
         from {
-            left: 0px;
+            left: 0%;
         }
     
         to {
-            left: 97px;
+            left: 27%;
         }
     }
 
