@@ -15,28 +15,28 @@
 
 .card-java {
     position: absolute;
-    left: 30px;
+    left: 2%;
     top: 100px;
     
 }
 
 .card-react-js {
     position: absolute;
-    left: 485px;
+    left: 35%;
     top: 100px;
 }
 
 .card-python {
     position: absolute;
-    left: 945px;
+    left: 68%;
     top: 100px;
 }
 
 #card {
     background-color: #140B6A;
     opacity: 27%;  
-    width: 389px;
-    height: 269px;
+    width: 29.5%;
+    height: 50%;
 }
 
 #card-title {

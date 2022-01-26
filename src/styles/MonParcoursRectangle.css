@@ -11,22 +11,23 @@
 .h1-Mon-Parcours {
     position: absolute;
     top: 70px;
-    left: 520px;
+    left: 40%;
     font-size: 50px;
 }
 
 .div-frise-chrono {
     position: absolute;
     top: 436px;
-    left: 192px;
+    left: 12%;
+    right: 12%;
     display: flex;
 }
 
 #div-annee-frise {
     background-color: #000000;
     opacity: 30%;
-    width: 263px;
-    height: 102px;
+    width: 15rem;
+    height: 6.2rem;
     padding-top: 10px;
     padding-left: 10px;
     margin: 2px;
@@ -35,7 +36,8 @@
 .ligne-2017 {
     position: absolute;
     top: 539px;
-    left:256px;
+    left: 19%;
+    right: 81%;
     border-left: 2px solid white;
     height: 69px;
 }
@@ -43,7 +45,8 @@
 .ligne-2020 {
     position: absolute;
     top: 369px;
-    left: 520px;
+    left: 38%;
+    right: 62%;
     border-left: 2px solid white;
     height: 69px;
 }
@@ -51,7 +54,8 @@
 .ligne-2021 {
     position: absolute;
     top: 539px;
-    left: 803px;
+    left: 54%;
+    right: 46%;
     border-left: 2px solid white;
     height: 69px;
 }
@@ -59,7 +63,8 @@
 .ligne-2022 {
     position: absolute;
     top: 369px;
-    left: 1074px;
+    left: 73.5%;
+    right: 26.5%;
     border-left: 2px solid white;
     height: 69px;
 }
@@ -68,134 +73,134 @@
 .icon-diploma {
     position: absolute;
     top: 1378px;
-    left: 212px;
+    left: 15.5%;
 }
 
 @keyframes anim-diploma {
     from {
-        left: 0px;
+        left: 0%;
     }
 
     to {
-        left: 212px;
+        left: 15.5%;
     }
 }
 
 .icon-mortarboard {
     position: absolute;
     top: 1030px;
-    left: 470px;
+    left: 34.5%;
 }
 
 @keyframes anim-mortarboard {
     from {
-        left: 0px;
+        left: 0%;
     }
 
     to {
-        left: 470px;
+        left: 34.5%;
     }
 }
 
 .icon-laptop {
     position: absolute;
     top: 1380px;
-    right: 563px;
+    right: 41%;
 }
 
 @keyframes anim-laptop {
     from {
-       right: 0px; 
+       right: 0%; 
     }
 
     to {
-        right: 563px;
+        right: 41%;
     }
 }
 
 .icon-brackets {
     position: absolute;
     top: 1030px;
-    right: 310px;
+    right: 23%;
 }
 
 @keyframes anim-brackets {
     from {
-        right: 0px;
+        right: 0%;
     } 
 
     to {
-        right: 310px;
+        right: 23%;
     }
 }
 
 p {
     color: white;
     font-family: 'Rozha One', serif;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .div-desc-2017 {
     position: absolute;
     top: 735px;
-    left: 143px;
+    left: 12%;
 }
 
 @keyframes anim-div-2017 {
     from {
-        left: 0px;
+        left: 0%;
     }
 
     to {
-        left: 143px;
+        left: 12%;
     }
 }
 
 .div-desc-2020 {
     position: absolute;
     top: 170px;
-    left: 383px; 
+    left: 28%; 
 }
 
 @keyframes anim-div-2020 {
     from {
-        left: 0px;
+        left: 0%;
     }
 
     to {
-        left: 383px;
+        left: 28%;
     }
 }
 
 .div-desc-2021 {
     position: absolute;
     top: 737px;
-    right: 403px;
+    right: 33%;
 }
 
 @keyframes anim-div-2021 {
     from {
-        right: 0px;
+        right: 0%;
     }
 
     to {
-        right: 403px;
+        right: 33%;
     }
 }
 
 .div-desc-2022 {
     position: absolute;
     top: 170px;
-    right: 120px;
+    right: 13%;
 }
 
 @keyframes anim-div-2022 {
     from {
-        right: 0px;
+        right: 0%;
     }
 
     to {
-        right: 120px;
+        right: 13%;
     }
 }
 
